@@ -1,0 +1,13 @@
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee" version="3.1">
+
+    <servlet>
+        <servlet-name>GuessServlet</servlet-name>
+        <servlet-class>GuessServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>GuessServlet</servlet-name>
+        <url-pattern>/guess</url-pattern>
+    </servlet-mapping>
+
+</web-app>
